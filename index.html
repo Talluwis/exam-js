@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.6.4.js"></script>
+    <script src="js/sova.js"></script>
+
+</head>
+<body>
+<!--Шапка-->
+<header class="header">
+    <div class="login">Авторизация</div>
+</header>
+<!--Секция Авторизации-->
+<section class="enter">
+    <div class="container">
+        <span>Авторизация</span>
+        <label>
+            <span>Логин</span>
+            <input type="text">
+        </label>
+        <label>
+            <span>Пороль</span>
+            <input type="password">
+        </label>
+        <button class="button">Войти</button>
+    </div>
+</section>
+<!--Слайдер/баннер-->
+<main class="main">
+    <div class="slider">
+        <div class="slide active">
+            <img src="img/slide-1.png" alt="slide-1">
+            <div class="info">
+                <div class="info-set">
+                    <h2>Слайд 1</h2>
+                    <i class="description">+</i>
+                </div>
+                <p hidden>Слайд морковного цвета, очень ярко и сочно!</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="img/slide-2.png" alt="slide-1">
+            <div class="info">
+                <div class="info-set">
+                    <h2>Слайд 2</h2>
+                    <i class="description">+</i>
+                </div>
+                <p hidden>Слайд салатового цвета, очень ярко и сочно!</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="img/slide-3.png" alt="slide-1">
+            <div class="info">
+                <div class="info-set">
+                    <h2>Слайд 3</h2>
+                    <i class="description">+</i>
+                </div>
+                <p hidden>Слайд небесного цвета, очень ярко и сочно!</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="img/slide-4.png" alt="slide-1">
+            <div class="info">
+                <div class="info-set">
+                    <h2>Слайд 4</h2>
+                    <i class="description">+</i>
+                </div>
+                <p hidden>Слайд сливового цвета, очень ярко и сочно!</p>
+            </div>
+        </div>
+        <div class="navigation">
+            <i class="info-btn">?</i>
+            <div class="navigation-arrows">
+                <i class="prev-btn"><</i>
+                <i class="next-btn">></i>
+            </div>
+        </div>
+        <div class="navigation-visibility">
+            <div class="slide-icon active"></div>
+            <div class="slide-icon"></div>
+            <div class="slide-icon"></div>
+            <div class="slide-icon"></div>
+        </div>
+    </div>
+</main>
+<!--Модальное окно с информацие-->
+<div class="info-box close">
+    <img src="img/info.png" alt="">
+    <img src="img/close.png" alt="" class="close-logo">
+    <div class="info-window">
+        слайдер состоит из 4-ех слайдов,
+        автоматически переключает
+        слайды и оснащён стрелками
+        для ручного переключения.
+    </div>
+</div>
+<!--Подвал-->
+<footer class="footer">
+    <div class="copyright">copyright</div>
+</footer>
+</body>
+</html>
